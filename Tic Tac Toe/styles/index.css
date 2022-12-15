@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole_screen {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.centralize_screen {
+    justify-content: center;
+}
+
+.game_screen {
+    width: 450px;
+    height: 450px;
+    border: 1px solid;
+}
+
+.play_again {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top_row {
+    display: flex;
+    justify-content: center;
+}
+
+.top_left {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.top_middle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.top_right {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_row {
+    display: flex;
+    justify-content: center;
+}
+
+.middle_left {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_middle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.middle_right {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_row {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_left {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_middle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_right {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
