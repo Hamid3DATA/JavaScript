@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.the_screen {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.screen_center_border {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+
+.number_screen {
+    position: absolute;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font: 130px Poppins;
+}
+
+.add {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 294px;
+    margin-bottom: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 24px Poppins;
+}
+
+.subtract {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 294px;
+    margin-bottom: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 24px Poppins;
+}
+
+.clear {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 294px;
+    margin-bottom: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+    font: 24px Poppins;
+}
