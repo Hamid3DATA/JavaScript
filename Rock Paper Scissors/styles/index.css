@@ -1,0 +1,237 @@
+/*Removes all default margin/padding off everything*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Select theme ↓ Press "Start"*/
+.guide_div {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/*to be able to centralize the two windows like that*/
+.screen_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*to add border and adjust size to the user screen (left one)*/
+.centralize_user_screen_div {
+    border: 1px solid;
+    height: 300px;
+    width: 350px;
+}
+
+/*to be able to have buttons at the bottom of the screen (under the image place), before the image is there*/
+.user_image_div {
+    width: 350px;
+    height: 250px;
+}
+
+/*to have the image at the center of the box (center from left to right, not top to bottom)*/
+.user_image {
+    display: flex;
+    justify-content: center;
+}
+
+/*to have buttons at the center of the box with equal space between them (from left to right, not top to bottom)*/
+.buttons_div {
+    display: flex;
+    justify-content: center;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.rock {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.paper {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.scissors {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.ready {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*to add border and adjust size to the user screen (right one)*/
+.centralize_pc_screen_div {
+    border: 1px solid;
+    height: 300px;
+    width: 350px;
+}
+
+/*to have the image at the center of the box (center from left to right, not top to bottom)*/
+.pc_image {
+    display: flex;
+    justify-content: center;
+}
+
+/*this div is here so that the button is in the center of the screen (center from left to right, not top to bottom)*/
+.rematch_button_div {
+    display: flex;
+    justify-content: center;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.rematch_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+/*this div is here so that the button is in the center of the screen (center from left to right, not top to bottom)*/
+.restart_button_div {
+    display: flex;
+    justify-content: center;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.restart_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/*this div is here so that the button is in the center of the screen (center from left to right, not top to bottom)*/
+.scoreboard_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*since there is no default margin now, i added my own*/
+.wins {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*since there is no default margin now, i added my own*/
+.losses {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*since there is no default margin now, i added my own*/
+.draws {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*centralize images/buttons and add a space between them and scoreboard*/
+.theme_div {
+    display: flex;
+    justify-content: center;
+}
+
+/*border color gets more defined*/
+.theme1_button {
+    background-image: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*border color gets more defined*/
+.theme2_button {
+    background-image: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*border color gets more defined*/
+.theme3_button {
+    background-image: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*since there is no default margin and padding now, i added my own*/
+.select_theme_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*from: https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+/* The Modal (background) */
+.theme_modal_div {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.theme_modal_content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 99%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
