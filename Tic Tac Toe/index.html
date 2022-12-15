@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>TicTacToe</title>
+    <script src="scripts/app2.js" defer></script>
+</head>
+<body>
+    <div class="whole_screen">
+        <div class="centralize_screen">
+            <button class="play_again" onclick="play_again()">Play Again!</button>
+            <div class="game_screen">
+                <div class="top_row">
+                    <div class="top_left" id="top_left" onclick="top_left()"></div>
+                    <div class="top_middle" id="top_middle" onclick="top_middle()"></div>
+                    <div class="top_right" id="top_right" onclick="top_right()"></div>
+                </div>
+                <div class="middle_row">
+                    <div class="middle_left" id="middle_left" onclick="middle_left()"></div>
+                    <div class="middle_middle" id="middle_middle" onclick="middle_middle()"></div>
+                    <div class="middle_right" id="middle_right" onclick="middle_right()"></div>
+                </div>
+                <div class="bottom_row">
+                    <div class="bottom_left" id="bottom_left" onclick="bottom_left()"></div>
+                    <div class="bottom_middle" id="bottom_middle" onclick="bottom_middle()"></div>
+                    <div class="bottom_right" id="bottom_right" onclick="bottom_right()"></div>
+                </div>
+            </div>
+            <div class="message" id="message"></div>
+        </div>
+    </div>
+</body>
+</html>
