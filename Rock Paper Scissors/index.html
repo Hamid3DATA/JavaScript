@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+    
+    <button class="select_theme_button" id="select_theme_button">Select Theme!</button>
+
+    <div class="theme_modal_div" id="theme_modal">
+
+        <div class="theme_modal_content">
+
+            <span class="close">&times;</span>
+
+            <div class="theme_div">
+                <button class="theme1_button" onclick="select_theme_1() "><img src="images/theme1/preview.png"></button>
+                <button class="theme2_button" onclick="select_theme_2()"><img src="images/theme2/preview.png"></button>
+                <button class="theme3_button" onclick="select_theme_3()"><img src="images/theme3/preview.png"></button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="guide_div" id="guide1">Select theme</div>
+    <div class="guide_div" id="guide2">↓</div>
+    <div class="guide_div" id="guide3">Press "Start"</div>
+
+    <div class="screen_div">
+
+        <div class="centralize_user_screen_div">
+
+            <div class="user_image_div">
+                <div class="user_image" id="user_image"></div>
+            </div>
+
+            <div class="buttons_div">
+                <button class="rock" id="rock" onclick="rock()">Rock</button>
+                <button class="paper" id="paper" onclick="paper()">Paper</button>
+                <button class="scissors" id="scissors" onclick="scissors()">Scissors</button>
+                <button class="ready" id="ready" onclick="ready()">Ready!</button>
+            </div>
+
+        </div>
+
+        <div class="centralize_pc_screen_div">
+            <div class="pc_image" id="pc_image"></div>
+        </div>
+
+    </div>
+
+    <div class="rematch_button_div">
+        <button class="rematch_button" onclick="refresh()">Rematch!</button>
+    </div>
+
+    <div class="restart_button_div">
+        <button class="restart_button" id="restart" onclick="restart()"></button>
+    </div>
+
+    <div class="scoreboard_div">
+        <p class="wins" id="wins"></p>
+        <p class="losses" id="losses"></p>
+        <p class="draws" id="draws"></p>
+    </div>
+
+</body>
+</html>
