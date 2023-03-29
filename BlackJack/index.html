@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack♠♥♣♦</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+
+    <div class="the_screen">
+
+        <div class="screen_center_border">
+
+            <div class="card_dealer_screen">
+
+                <div class="dealer_image">
+                    <img class="card_dealer_img" src="images/card_dealer.jpg">
+                </div>
+
+                <div class="card_images_dealer" id="card_images_dealer">
+                </div>
+
+            </div>
+
+            <div class="cards_screen">
+
+                <div class="cards">
+                    <img class="card_deck_img" src="images/card_deck.png">
+                </div>
+
+                <div class="status_div" id="status_div">
+                    <p class="status_text" id="status_text"></p>
+                </div>
+                
+                <div class="status_div2" id="status_div">
+                    <p class="dealer_points" id="dealer_points"></p>
+                    <p class="your_points" id="your_points"></p>
+                </div>
+
+                <div class="balance_div">
+                    <p class="balance" id="balance">Balance: 200$</p>                  
+                </div>
+
+                <div class="bet_buttons">
+                    <button class="bet10" onclick="bet_ten()">Bet 10$</button>
+                    <button class="bet25" onclick="bet_twentyfive()">Bet 25$</button>
+                    <button class="bet50" onclick="bet_fifty()">Bet 50$</button>
+                    <button class="bet100" onclick="bet_hundred()">Bet 100$</button>
+                    <button class="allin" onclick="bet_all()">All In</button>
+                </div>
+
+                <div class="your_bet_text">
+                    <p id="your_bet">Your bet: 0$</p>
+                </div>
+
+                <div class="clear_bet">
+                    <button class="clear_bet_button" id="clear_bet_button" onclick="clear_bet()">Clear bet</button>
+                </div>
+
+            </div>
+
+            <div class="player_screen">
+
+                <div class="player">
+                    <img class="player_img" src="images/player.png">
+                </div>
+
+                <div class="card_images_player" id="card_images_player">
+                </div>
+
+                <div class="player_buttons" id="player_buttons">
+                    <button class="start" onclick="start()">Start</button>
+                    <button class="plus_one_card" onclick="get_card()">+1 card</button>
+                    <button class="end" id="end" onclick="end()">End turn</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

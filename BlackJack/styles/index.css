@@ -1,0 +1,201 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.the_screen {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.screen_center_border {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+
+
+.card_dealer_screen {
+    display: flexbox;
+    justify-content: center;
+    border: 1px solid;
+    width: 400px;
+}
+
+.dealer_image {
+    display: flex;
+    justify-content: center;
+}
+
+.card_dealer_img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+}
+
+.card_images_dealer {
+    max-width: 400px;
+    max-height: 240px;
+    width: 400px;
+    height: 240px;
+}
+
+.dealer_card_image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+
+
+
+
+.cards_screen {
+    display: flexbox;
+    border: 1px solid;
+    width: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card_deck_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 160px;
+    height: 233px
+}
+
+.status_div {
+    display: flex;
+    justify-content: center;
+}
+
+.status_div2 {
+    display: flex;
+    justify-content: space-between;
+    max-height: 20px;
+    height: 20px;
+}
+
+.status_text {
+    margin-top: 10px;
+    max-height: 20px;
+    height: 20px;
+}
+
+.balance_div {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.balance {
+    color: green;
+}
+
+.bet_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.your_bet_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.clear_bet {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.clear_bet_button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+.player_screen {
+    display: flexbox;
+    justify-content: center;
+    border: 1px solid;
+    width: 400px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+}
+
+.player_img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.card_images_player {
+    max-width: 400px;
+    max-height: 240px;
+    width: 400px;
+    height: 240px;
+}
+
+.player_card_image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+.player_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.start {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.plus_one_card {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.end {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
