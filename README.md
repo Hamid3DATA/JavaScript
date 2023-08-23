@@ -1,1 +1,1 @@
-This is my random projects using JavaScript I did in my free time
+This is my random projects I did in my free time in order to learn the basics of JavaScript.
