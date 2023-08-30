@@ -4,4 +4,4 @@ In the [scripts](https://github.com/Hamid3DATA/JavaScript/tree/main/BlackJack/sc
 app.js is a prototype and therefore is incomplete, while app2.js is the "final" version (i think).
 <br />
 
-Which means that you do not need app.js file at all.
+Which means that you don't need app.js file at all.
